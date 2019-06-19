@@ -1,0 +1,25 @@
+$(document).ready(function(){
+			$('.edu_wrap>li>a').each(function(){
+				$('.edu_wrap>li>div').not(':first').hide();
+				$('.edu_wrap>li:first>a').addClass('tab_on');
+			$(this).click(function(e){
+				e.preventDefault();
+				$('.edu_wrap>li>a.tab_on').removeClass('tab_on');
+				$(this).addClass('tab_on');
+				$('.edu_wrap>li>div').hide();
+				$(this).parent().find('.edu_box').show();
+			})
+			$('.li_1').click(function(){
+				$('.edu_wrap').css('height','655px')
+				$('.edubtn').css('margin-bottom','13px')
+			})
+			$('.li_2').click(function(){
+				$('.edu_wrap').css('height','630px')
+				$('.edubtn').css('margin-bottom','38px')
+			})
+			$('.li_3').click(function(){
+				$('.edu_wrap').css('height','630px')
+				$('.edubtn').css('margin-bottom','38px')
+			})
+		})
+	})		

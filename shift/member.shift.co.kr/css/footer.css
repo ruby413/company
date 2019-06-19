@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+footer{width:100%;
+	   background:#354053;
+		font-size:13px;}
+.footer_wrap{width:1280px;
+			 margin:0 auto;
+			 padding:20px;
+			 color:#e1e2e4;
+			 overflow:hidden;}
+address{font-style:normal;}
+.footer_1{float:left;}
+.footer_1 p{margin-top:10px;}
+.footer_2{float:right;}
+.footer_2 p{color:#b5c1d5}

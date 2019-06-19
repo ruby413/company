@@ -1,0 +1,10 @@
+$(function(){
+	$('.join_btn2').click(function(e){
+		e.preventDefault();
+		$('.join_content2').css('display','block');
+		/*$('.popup1').css('display','none');*/
+	})
+	$('.joincont_btn2').click(function(){
+		$('.join_content2').css('display','none');
+	})
+})

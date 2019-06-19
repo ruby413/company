@@ -1,0 +1,10 @@
+$(function(){
+	$('.btn_orange').click(function(e){
+		e.preventDefault();
+		$('.popup2').css('display','block');
+		$('.popup1').css('display','none');
+	})
+	$('.popup_close').click(function(){
+		$('.popup2').css('display','none');
+	})
+})

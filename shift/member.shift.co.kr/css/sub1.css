@@ -1,0 +1,392 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+/*교육 안내*/
+
+.sub1_wrapper{width:100%;}
+.contents_wrap{background:#354053;
+			   height:143px;}
+.contents_wrap > section{width:1280px;
+			 	  	   	 margin:0 auto;}
+.contents_wrap h2{color:#fff;
+				  font-size:22px;
+				  background:url(../images/sub1/icon_h2.gif) no-repeat 0px 20px;
+				  padding:20px 0 0 17px;
+				  height:22px;
+				  z-index:999;
+				  margin-left:30px;
+				  font-weight:normal}
+.cont1{font-size:24px;
+		margin:15px 0 0 30px;
+		color:#fc8f71;}
+.cont2{font-size:19px;
+	   color:#b1b9c7;
+	   margin:10px 0 0 30px;}
+
+
+.wrapper2{width:1200px;
+		  margin:0 auto;
+		  overflow:hidden;}	   
+.edu_wrap{overflow:hidden;
+		  float:left;
+		  color:#354053}
+		  
+		  
+/*교육안내 - 교육과정 안내<tab1>*/
+
+.edu_wrap > li{float:left;
+			   margin-top:20px;}
+.edu_wrap > li > a.tab_on{padding:12px 27px 8px;
+						   font-size:17px;
+						   display:inline-block;
+						   background:#e0603d;
+						   color:#fff}
+.edu_wrap > li > a{padding:12px 27px 8px;
+				   font-size:17px;
+				   display:inline-block;
+				   color:#e0603d;
+				   border:1px solid #e0603d;
+				   margin-right:7px;}
+.edu_wrap{position:relative;
+		  width:1200px;
+		  height:655px;}
+.edu_box{position:absolute;
+	     top:59px;
+	     left:0;
+	     padding-top:13px;
+	     border-top:3px solid #e0603d;}
+.edu1 > section{border:1px solid #dedede;
+			    width:1194px;
+			    height:577px}
+.edu1_h3{border-bottom:1px solid #dedede;
+		   background:#f6f6f6;
+		   width:1134px;
+		   padding:13px 30px;
+		   color:#354053}
+.edu1_cont{margin-left:30px;
+		   padding:20px 0;
+		   overflow:hidden;}
+.edu1_cont > p{font-size:15px;
+			 line-height:1.6;}
+.edu1_cont > p strong{font-size:17px;}
+
+
+/*교육안내 - 교육과정 안내<tab1> - 이노싱크 가우스 일정 box*/
+
+.edu1_cont_1, .edu1_cont_2{border:1px solid #dedede;
+							 width:545px;
+							 height: 177px;
+							 margin-top:27px;
+							 overflow:hidden;
+							 float:left;
+							 background:#f5f5f5}
+.edu1_cont_1 > li{float:left;
+				  padding:17px 0;
+				  margin:10px 0;
+				  width:272px;}
+.edu1_cont_1_border{border-right:1px solid #dedede;
+					height:125px;}
+.edu1_cont_1 > li h4{font-size:22px;
+					 text-align:center;
+					 margin-bottom:17px;}
+.edu1_cont_1 > li span{font-size:24px;
+					   color:#6f7a8c;
+					   display:block;
+					   text-align:center;
+					   line-height:1.4;}
+.edu1_cont_1 > li span.edu1_small{font-size:16px;}
+
+
+/*교육안내 - 교육과정 안내<tab1> - 시간 장소 내용 box*/
+
+.edu1_cont_2{margin-left:40px;
+			 display:inline-block;
+			 font-size:18px;
+			 line-height:1.8;}
+.edu1_cont_2 li:first-child{margin-top:30px;
+							background:url(../images/sub1/icon_cont1.png) no-repeat 0 7px;
+							padding-left:25px;}
+.edu1_cont_2 li:nth-child(2){background:url(../images/sub1/icon_cont2.png) no-repeat 0 7px;
+							padding-left:25px;}
+.edu1_cont_2 li:last-child{background:url(../images/sub1/icon_cont3.png) no-repeat 0px 7px;
+							padding-left:25px;
+							height:28px;}
+.edu1_cont_2 li{margin-left:49px;}
+.edu1_cont_2 li span{font-weight:bold;
+					 float:left;
+					 margin-left:5px;}
+.edu1_cont_2 li span.RIA{display:inline-block;
+					 	 width:360px;
+					 	 float:left;
+					 	 font-weight:normal;}
+					 	 
+					 	 
+/*교육안내 - 교육과정 안내<tab1> - 가우스와 이노싱크 교육은 온라인을 통해서만 가능합니다..*/
+
+.edu1_cont > p.color_orange{display:block;
+						  color:#f33a1c;
+						  font-size:17px;
+						  font-weight:bold;
+						  width:1000px;
+						  float:left;
+						  margin-top:30px;}
+.float{float:left;
+	   width:1000px;
+	   color:#8a8e93}
+	   
+	   
+/*교육안내 - 교육과정 안내<tab1> - 담당자안내*/
+
+.edu1_cont_3{float:left;
+			 border:1px solid #dedede;
+			 background:#f5f5f5;
+			 width:1131px;
+			 height:95px;
+			 overflow:hidden;
+			 margin-top:30px}
+.edu1_cont_3 > h5{float:left;
+				  height:95px;
+				  font-size:20px;
+				  margin:35px 0 0 52px;
+				  font-weight:normal;}
+.edu1_cont_3 > ul{float:left;
+				  margin:18px 0 0 60px;
+				  overflow:hidden;
+				  height:95px;
+				  width:790px;}
+.edu1_cont_3 > ul li{float:left;
+					 font-size:15px;
+					 margin-right:25px;
+					 line-height:2;
+					 background:url(../images/sub1/icon_dot.gif) no-repeat 0px 13px;
+					 padding-left:10px;}
+.edu1_cont_3 > span{margin:18px 0 0 10px;
+					display:inline-block;}
+	
+	
+	
+/*교육안내 - 교육장 안내<tab2> - 담당자안내*/	
+
+.edu2_h3{border-bottom:1px solid #dedede;
+		   background:#f6f6f6;
+		   width:1134px;
+		   padding:13px 30px;
+		   color:#354053}	
+.edu2 > section{border:1px solid #dedede;
+			    width:1194px;
+			    height:548px;}
+.edu2_cont_1{border:1px solid #dedede;
+			 background:#f5f5f5;
+			 width:1131px;
+			 height:149px;
+			 overflow:hidden;
+			 margin:19px 31px;
+			 font-size:18px;
+			 line-height:1.8}
+.edu2_cont_1 li span{font-weight:bold;
+					 margin-left:30px;
+					 padding-left:30px;}
+.edu2_cont_1 li:first-child span{margin-top:28px;
+								 display:inline-block;
+								 background:url(../images/sub1/icon_cont2.png) no-repeat 0 7px;}
+.edu2_cont_2{width:855px;
+			 margin:0 auto;}
+.edu2_cont_2 h4{font-size:13px;
+			    margin-bottom:8px;}			 
+.edu2_cont_2_img1{display:inline-block;
+				  margin:0 35px 0 0;}
+.edu2_cont_2_img1 img{margin-top:9px;}	
+	
+	
+/*교육안내 - 교육장 안내<tab3>*/
+
+.edu3{overflow:hidden;}	
+.edu3_h3{border-bottom:1px solid #dedede;
+		   background:#f6f6f6;
+		   width:1134px;
+		   padding:13px 30px;
+		   color:#354053}		
+.edu3 > section{border:1px solid #dedede;
+			    width:1194px;
+			    height:548px;}	
+.edu3_cont1, .edu3_cont2{float:left;
+						 margin-top:20px;}
+.edu3_cont1{margin-left:30px;}
+.edu3_cont2{margin-left:45px;}
+.edu3_cont1 .table_h3, .edu3_cont2 .table_h3{background:#354053;
+							  				 color:#fff;
+							  				 font-size:13px;}
+.edu3_cont1 table, .edu3_cont2 table{width:543px;
+									  height:463px;
+									  line-height:1.4;
+									  border:1px solid #d9d9d9;}	
+.edu3_cont1 td, .edu3_cont2 td{font-size:13px;
+							   letter-spacing:-1px;
+							   border:1px solid #d9d9d9}	
+.edu3_cont1 th, .edu3_cont2 th{font-size:14px;
+							   text-align:center;}	
+.edu3_cont1 thead, .edu3_cont2 thead{text-align:center}				
+.table_head{background:#dee4ec;
+		    color:#354053; }
+.table_content{padding:8px 10px;}
+tbody th{background:#f6f7fa;
+		 border:1px solid #d9d9d9;}
+
+
+
+/*교육안내 - 교육안내 전체 - 교육신청*/
+
+.edubtn{width:1194px;
+		margin:0 auto;
+		margin-bottom:13px;
+		float:left;}
+a.edu_button{display:inline-block;
+			width:1193px;
+			padding:10px 0;
+			background:#e0603d;
+			color:#fff;
+			text-align:center;
+			margin-top:13px;
+			font-weight:bold}
+			
+			
+/*교육안내 - 교육안내 전체 - 교육신청 popup1*/			
+
+#layerPop{width:1059px; 
+		  height:467px; 
+		  position:fixed; 
+		  top:25%!important; 
+		  left:22.5%!important; 
+		  box-shadow : 1px 1px 15px #444; 
+		  background:#fff; 
+		  display:none; 
+		  z-index:100;}
+#layerPop p{padding:19px 0;
+			font-size:18px;
+			text-align:center;
+			color:#fff;
+			font-weight:bold;
+			background:#e0603d;}
+.sub1_popup table{width:1005px;
+				   height:313px;
+				   margin:25px 0 0 24px;
+				   color:#2e3844;
+				   font-size:16px;}
+.sub1_popup table th{width:102px;
+					  padding:10px 0;
+					  background:#ececec;
+					  border-left:1px solid #d9d9d9;
+					  border-right:1px solid #d9d9d9;}
+.sub1_popup table td{padding-left:10px;
+					  background:#f5f5f5;
+					  border:1px solid #d9d9d9;}
+.sub1_popup .popup1_date, .sub1_popup1 select{border:none;
+											    width:168px;
+											    height:27px;
+											    padding-left:10px;
+												border:1px solid #cfcfcf}
+.popup1_date{background:url(../images/sub1/icon_calendar.png) no-repeat 153px center;
+			 background-color:#fff;}
+.sub1_popup .popup1_numb{border:none;
+					    width:148px;
+					    padding-right:20px;
+					    height:27px;
+					    padding-left:10px;
+						border:1px solid #cfcfcf}
+textarea{width:879px;
+		 height:151px;
+		 border:none;
+		 border:1px solid #cfcfcf}
+#layerPop .close{position:absolute; 
+				 bottom:18px;
+				 right:375px;
+				 padding:9px 42px;
+				 
+				 color:#fff !important;
+				 background:#8c8482;}
+.btn_orange{position:absolute; 
+				 bottom:18px;
+				 left:375px;
+				 padding:9px 42px;
+				 color:#fff !important;
+				 background:#d04822;}
+#deemed{width:100%; 
+	    height:100%;
+	    overflow-y:hidden; 
+	    position:fixed; 
+	    top:0; 
+	    left:0; 
+	    filter:Alpha(opacity=35);
+	    opacity:0.35; 
+	    background:#000; 
+	    z-index:1;}
+
+	/*교육계획등록 - 교육일자 달력 스크립트*/
+.calendar{position:relative;width:100%;background:#ffffff; border:1px solid #c0c0c0; color:#d04822; font-weight:bold;}
+.calendarDayTitle{width:100%;text-align:center;font-weight:bold;background:#e0603d; color:#fff; padding:7px 0; font-size:14px;border-top:1px solid #e0603d;}
+.calendarDateWidth{width:20px;cursor:pointer; border:none !important; padding:6px 8px 3px 4px !important;}
+.calendarDateTitle{padding:5px 0px 5px 0px;font-weight:bold;float:left;text-align:center;padding:3px 0px 3px 0px;}
+.calendarDay{float:left;text-align:center;font-weight:normal;padding:3px 0px 3px 0px;}
+.calendarDayHidden{float:left;text-align:center;font-weight:normal;padding:3px 0px 3px 0px; color:#8c8482;}
+.calendarToday{font-weight:bold;color:#fff;background:#d04822;border-radius:25px;width:10px;margin:0 5px}
+.calendarPrevBtn{position:absolute;left:2px;top:2px;cursor:pointer;}
+.calendarNextBtn{position:absolute;right:2px;top:2px;cursor:pointer;}
+.calendarCloseBtn{display:none;}
+.calendarPrevBtn span{background:url(../images/sub1/icon_cal_prev.gif) no-repeat 0 0;
+					  width:28px;
+					  height:24px;
+					  display:inline-block;
+					  margin-top:3px;}
+.dateStrDeleteBtn{display:none;}
+.calendarNextBtn span{background:url(../images/sub1/icon_cal_next.gif) no-repeat 0 0;
+					  width:28px;
+					  height:24px;
+					  display:inline-block;
+					  margin-top:3px;}
+.calendarDateTitle{background:#d04822; color:#fff;}
+	
+	/*교육계획등록 - 교육과정 selectbox_popup1 스크립트*/
+	
+.edu_class_td{position:relative;}	
+select {display: block;}
+select.replaced {display: none;}
+ul.selectReplacement1 {display:inline-block;
+						margin:0;
+						padding:0;
+						width: 178px; 
+						position:absolute; 
+						top:5px; 
+						left: 10px;
+						background:#fff;
+						border:1px solid #cfcfcf !important}
+
+ul.selectReplacement1 li:first-child{background:url(../images/main/icon_select.png) no-repeat 160px center;  }
+ul.selectReplacement1 li {background: #fff;
+						color: #2e3844;
+						cursor: pointer;
+						display: none;
+						list-style: none;
+						margin: 0;
+						padding: 5px 10px;}
+ul.selectOpen1 li {display: block;}
+ul.selectReplacement1 li.selected_pop {/*활성되었을때 백그라운드 안가리게*/
+									color: #2e3844;  /*선택된 텍스트 색상*/
+									display: block;
+									background-color:#fff;}
+ul.selectOpen1 li.selected_pop {background-color: #fff;
+						   color:#2e3844;
+						   display: block;}
+ul.selectOpen1 li:hover,
+ul.selectOpen1 li.hover,
+ul.selectOpen1 li.selected_pop:hover {background: #e0603d;
+								color: #fff;}
+								
+/*교육안내 - 교육안내 전체 - 교육신청 popup2*/									
+.popup2_company, .popup2_tel, .popup2_email{width:411px; 
+										    height:27px; 
+										    border:none; 
+										    padding-left:10px;
+										    border:1px solid #cfcfcf}
